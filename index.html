@@ -1,0 +1,126 @@
+<!DOCTYPE html> <!-- Mendefinisikan dokumen sebagai HTML5, yang merupakan standar terkini.   -->
+<html lang="en"> <!-- Elemen root untuk setiap halaman HTML dengan atribut `lang` yang menentukan bahasa dari dokumen, dalam hal ini, English.    -->
+<head> <!-- Bagian dari dokumen yang berisi metadata.   -->
+    <meta charset="UTF-8"> <!-- Menetapkan set karakter yang digunakan untuk dokumen, UTF-8 mencakup hampir semua karakter dan simbol dari semua bahasa.    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Membantu halaman dalam skalabilitas pada perangkat dengan ukuran layar yang berbeda, sangat penting untuk desain responsif.   -->
+    <title>Pratikum HTML</title> <!-- Judul dari halaman web, yang akan muncul pada tab browser.    -->
+</head>
+<body> <!-- Bagian ini akan berisi semua konten halaman web seperti teks, gambar, link, tabel, dll., yang akan dilihat oleh pengguna.    -->
+
+    <!-- Tag Judul dan Paragraf -->
+    <h1>Profil Mahasiswa</h1> <!-- digunakan untuk mendefinisikan heading dan subheading, menunjukkan hierarki informasi dalam dokumen   -->
+    <p>Perkenalan Nama saya Bryan</p>
+    
+    <!-- Subjudul untuk Bagian Biografi --> 
+    <h2>Biografi</h2> 
+    <!-- Paragraf Biografi --> 
+    <p> <!-- di sisi lain, digunakan untuk menulis teks dalam paragraf. --> 
+        Saya adalah mahasiswa yang mempelajari Ilmu Komputer di Universitas pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin memperdalam pengetahuan dalam HTML dan CSS.
+    </p>  
+
+    <!-- Subjudul untuk Pendidikan --> 
+    <h2>Pendidikan</h2> 
+    <!-- Paragraf Pendidikan --> 
+    <p>
+        Saat ini saya sedang menempuh semester ketiga di jurusan Ilmu Komputer. Saya mengambil kursus tentang dasar-dasar pengembangan web untuk meningkatkan keterampilan saya dalam bidang ini.
+    </p> 
+
+    <p>Untuk Biodata lebih lengkap bisa akses link berikut: <a href="biodata.html">Lihat Biodata</a></p>
+
+    <!-- Hyperlink dan Gambar  -->
+
+    <!-- Menggunakan Hyperlink --> 
+    <h2>Kontak Saya</h2> 
+    <p>Anda dapat menghubungi saya melalui email di <a href="bryanterence10@gmail.com">Hubungi Saya</a>.</p> 
+    <!-- Tag `<a>` digunakan untuk membuat hyperlink yang memungkinkan pengguna untuk navigasi ke halaman web lain, dokumen, atau lokasi lain dalam halaman yang sama -->
+    <p>Atau kunjungi Instagram saya di  <a href="https://www.instagram.com/brynn.dig?">Instagram</a> </p>
+
+    <!-- Hyperlink ke dokumen eksternal --> 
+    <p>Untuk informasi lebih lanjut, kunjungi <a href="https://github.com/Bryantrnc/biodata" 
+    target="_blank">website saya</a>.</p> 
+
+
+    <!-- Unordered List untuk menampilkan daftar hobi --> 
+    <h2>Hobi Saya</h2> 
+    <ul> 
+        <li>Tidur</li> 
+        <li>Olahraga</li> 
+        <li>Makan</li> 
+    </ul> 
+
+    <!-- Ordered List untuk menampilkan proses pendidikan --> 
+    <h2>Riwayat Pendidikan</h2> 
+    <ol> 
+        <li>Kalam Kudus</li> 
+        <li>Kalam Kudus</li> 
+        <li>SMK Pariwisata Harapan</li> 
+    </ol> 
+    
+    <!-- Tabel Jadwal Kuliah --> 
+    <h2>Jadwal Kuliah Semester Ini</h2> 
+    <table border="1"> 
+        <tr>
+            <th>Jadwal</th>
+            <th>Waktu</th>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Senin</td>
+            <td>08:00 - 10:30</td>
+            <td>Pengantar Kecerdasaan Buatan</td>
+            <td>Miss Ika</td>
+        </tr>
+        <tr>
+            <td>11:00 - 14:20</td>
+            <td>Konfigurasi dan Administrasi Jaringan</td>
+            <td>Pak Komang</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Selasa</td>
+            <td>08:00 - 10:30</td>
+            <td>Anti Korupsi</td>
+            <td>Pak Joni</td>
+        </tr>
+        <tr>
+            <td>11:00 - 13:30</td>
+            <td>Pengantar Kecerdasan Buatan</td>
+            <td>Miss Ika</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Rabu</td>
+            <td>08:00 - 10:30</td>
+            <td>Pengantar Kecerdasaan Buatan</td>
+            <td>Miss Ika</td>
+        </tr>
+        <tr>
+            <td>11:50 - 15:10</td>
+            <td>Pemrograman Web</td>
+            <td>Pak Huma</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Kamis</td>
+            <td>08:00 - 10:30</td>
+            <td>Pengantar Kecerdasaan Buatan</td>
+            <td>Miss Ika</td>
+        </tr>
+        <tr>
+            <td>11:00 - 13:30</td>
+            <td>Konfigurasi dan Administrasi Jaringan</td>
+            <td>Pak Komang</td>
+        </tr> 
+    </table>
+
+     <!-- Formulir kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="#" method="post">
+        <label for="Bryantrnc">Nama:</label><br />
+        <input type="text" id="nama" name="nama" required /><br /><br />
+
+        <label for="bryanterence10@gmail.com">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+            </form> 
+
+</body>
+</html>
